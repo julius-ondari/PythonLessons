@@ -9,7 +9,7 @@ class Robot:
 		else:
 			print("I have no name")
 
-x = Robot()
-x.say_hi()
-y = Robot("Marvin")
-y.say_hi()
+	def set_name(self, name):
+		self.name = name
+	def get_name(self, name):
+		return self.name
